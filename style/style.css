@@ -194,9 +194,6 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
-
-
-Inside Auto Layout
 flex: none;
 order: 0;
 flex-grow: 0;
@@ -240,4 +237,57 @@ flex: none;
 order: 0;
 flex-grow: 0;
 margin: 30px 0px;
+}
+
+
+.tex-alinmert{
+    color: rgba(2, 17, 12, 0.6);
+    text-align: center;
+}
+.skill-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 95px;
+}
+.skill{
+    width: 232px;
+    height: 192px;
+}
+.no-1{
+    background-color: rgba(255, 76, 30, 0.05);
+}
+.no-2{
+    background-color: rgba(0, 76, 232, 0.05);
+}
+.no-3{
+    background-color: rgba(255, 223, 0, 0.05);
+}
+/* ................footer.... */
+.footer-setion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 729px;
+    height: 200px;
+    background-image: url(../assets/handshake.jpg);
+}
+.footer-setion input{
+    width: 450px;
+    height: 30px;
+    display: flex;
+}
+.footer-setion button{
+    width: 100px;
+    height: 40px;
+}
+/* .......footer....... */
+.futter{
+    width: 739px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/handshake.jpg);
 }
